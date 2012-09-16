@@ -1,0 +1,46 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Spit it out</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/style.css" rel="stylesheet">
+
+    <meta name="description" content="Typing into the abyss">
+  </head>
+  <body>
+
+    <div class="content">
+      <div id="typing-view">
+        <div id="YEAHYEAHYEAH" class="text">
+          Just type, it's simple.
+        </div>
+        <button id="render" class="centered">Done</button>
+        <textarea id="input" class="invisible" ></textarea>
+      </div>
+
+      <div id="rendered-view" class="hidden">
+        <div id="output" class="rendered" ></div>
+        <button id="back">Back</button>
+        <button id="new">New</button>
+        <button id="about">About</button>
+
+        <div class="hidden" id="about-text">
+          <p>
+            This is an experiment to see what happens to your writing if you no longer
+            have other copy on the page while you write. None of the stuff you type
+            is saved or sent to any servers.
+          </p>
+          <p>
+            Made by <a href="http://peterschilling.org">Peter</a>
+          </p>
+        </div>
+
+      </div>
+    </div>
+
+    <script src="js/libs/jquery.min.js"></script>
+    <script src="js/spititout.js"></script>
+  </body>
+</html>

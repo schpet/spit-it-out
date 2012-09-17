@@ -69,10 +69,11 @@ renderView = ()->
     typingView()
   )
 
-  $('#about-text').addClass('hidden')
-  $('#about').on('click', ()->
-    $('#about-text').removeClass('hidden')
-  )
+
+$('#about-text').addClass('hidden')
+$('#about').on('click', ()->
+  $('#about-text').toggleClass('hidden')
+)
 
 typingView()
 

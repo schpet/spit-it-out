@@ -18,24 +18,31 @@
         </div>
         <button id="render" class="centered">Done</button>
         <textarea id="input" class="invisible" ></textarea>
-      </div>
 
-      <div id="rendered-view" class="hidden">
-        <div id="output" class="rendered" ></div>
-        <button id="back">Back</button>
-        <button id="new">New</button>
-        <button id="about">About</button>
+        <a id="about" class="about centered" href="javascript:;">?</a>
 
         <div class="hidden" id="about-text">
           <p>
-            This is an experiment to see what happens to your writing if you no longer
-            have other copy on the page while you write. None of the stuff you type
-            is saved or sent to any servers.
+            As you write your text disappears, preventing you from looking at what
+            you've written. The purpose is to see how this affects your writing.
+            After you're done, it shows you what you've wrote.
+          </p>
+          <p>
+            None of the stuff you type is saved or sent to any servers.
           </p>
           <p>
             Made by <a href="http://peterschilling.org">Peter</a>
           </p>
         </div>
+      </div>
+      <noscript>
+        This thing sucks without javascript.
+      </noscript>
+
+      <div id="rendered-view" class="hidden">
+        <div id="output" class="rendered" ></div>
+        <button id="back">Back</button>
+        <button id="new">New</button>
 
       </div>
     </div>

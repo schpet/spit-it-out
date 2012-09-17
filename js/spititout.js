@@ -71,16 +71,18 @@
     $back.unbind().on('click', function() {
       return typingView();
     });
-    $new.unbind().on('click', function() {
+    return $new.unbind().on('click', function() {
       $visual.text('');
       $input.val('');
       return typingView();
     });
-    $('#about-text').addClass('hidden');
-    return $('#about').on('click', function() {
-      return $('#about-text').removeClass('hidden');
-    });
   };
+
+  $('#about-text').addClass('hidden');
+
+  $('#about').on('click', function() {
+    return $('#about-text').toggleClass('hidden');
+  });
 
   typingView();
 

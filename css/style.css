@@ -14,10 +14,14 @@ body {
   font-size: 50px;
   margin: auto;
   width: 500px;
-  height: 100px;
+  height: 80px;
+  line-height: 80px;
+  vertical-align: baseline;
   margin-top: 100px;
   outline: none;
   text-align: center;
+  overflow: hidden;
+  margin-bottom: 20px;
 }
 
 .invisible {
@@ -44,4 +48,11 @@ button {
 
 .hidden {
   display: none;
+}
+.about {
+  color: #eee;
+  font-size: 60px;
+  text-align: center;
+  width: 450px;
+  margin-top: 100px;
 }
